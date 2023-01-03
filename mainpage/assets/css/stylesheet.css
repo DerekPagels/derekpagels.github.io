@@ -1,0 +1,86 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: magenta;
+}
+
+header {
+    background-color: green;
+    padding-bottom: 20px;
+    overflow: scroll;
+}
+
+.header-fila-1 {
+    display: flex;
+    width: 100vw;
+    height: 50px;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
+.info-banner {
+    display: flex;
+    justify-content: baseline;
+    white-space: nowrap;
+    overflow: hidden;
+    height: 35px;
+    width: inherit;
+    font: normal normal bold 1em ModernSans;
+    margin-top: 12px;
+}
+
+.info-banner .cat-logo {
+    height: 20px;
+    padding-right: 3px;
+}
+
+.info-banner .cat-name {
+    font-family: Quicksilver;
+    padding-right: 3px;
+}
+
+.info-banner .info-message {
+    display: block;
+    font-family: ModernSans;
+    text-align: center;
+    font-size: 1em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 3px 0 0 0;
+}
+
+.info-banner a {
+    color: black;
+    text-decoration: none;
+    width: inherit;
+    height: inherit;
+}
+
+.admin-panel {
+    color: lightgray;
+    width: 80px;
+    height: 40px;
+    margin: 5px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    height: 40px;
+    padding-left: 100px;
+    padding-right: 20px;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-end;
+    text-align: end;
+}
+
+nav .btn {
+    padding: 5px;
+    margin: 0px 1vw;
+}
+
+.site-logo {
+    width: 100px;
+    padding: 10px;
+}
