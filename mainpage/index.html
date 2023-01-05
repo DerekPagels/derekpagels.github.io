@@ -8,6 +8,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
     <link rel="stylesheet" href="assets/css/stylesheet.css" />
+    <link rel="stylesheet" href="assets/css/phone.css" media="max-width: 480px">
+    <link rel="stylesheet" href="assets/css/tablet.css" media="(min-width: 480.01px) and (max-width: 768px)">
+    <link rel="stylesheet" href="assets/css/desktop.css" media="min-width: 768.01px">
     <link rel="stylesheet" href="assets/css/fonts.css">
     <title>SideQuest</title>
 </head>
@@ -19,18 +22,37 @@
             <span class="info-banner">
                 <a href="#logo"><img src="assets/img/x.png" alt="X Logo" class="cat-logo"></a>
                 <a href="#catname"><span class="cat-name">XSys</span></a>
-                <a href="#newsarticle"><span class="info-message">Proin auctor neque ut elit imperdiet tempus. Pellentesque
-                        facilisis eu lorem in convallis.</span></a>
+                <a href="#newsarticle"><span class="info-message">Proin auctor neque ut elit imperdiet tempus.
+                        Pellentesque facilisis eu lorem in convallis.</span></a>
             </span>
             <button type="button" class="btn btn-secondary admin-panel">Admin</button>
         </div>
         <nav>
-            <a href="#"><button type="button" class="btn btn-primary">Categorías</button></a>
-            <a href="#"><button type="button" class="btn btn-primary">Búsqueda</button></a>
-            <a href="#"><button type="button" class="btn btn-primary">Contacto</button></a>
+            <a href="#category"><button type="button" class="btn btn-primary">Categorías</button></a>
+            <a href="#search"><button type="button" class="btn btn-primary">Búsqueda</button></a>
+            <a href="#contact"><button type="button" class="btn btn-primary">Contacto</button></a>
         </nav>
     </header>
-    <section></section>
+    <section class="news-feed">
+        <div class="news-card">
+            <h1>Noticia de Prueba</h1>
+            <h2>Subtítulo de Prueba</h2>
+            <article>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque enim id sem gravida, ac sollicitudin lectus tincidunt.</article>
+            <button class="btn btn-primary">Leer Artículo</button>
+        </div>
+        <div class="news-card">
+            <h1>Noticia de Prueba</h1>
+            <h2>Subtítulo de Prueba</h2>
+            <article>Nunc sapien justo, lobortis eu consequat a, congue sed orci. Aliquam sodales lobortis ipsum, at varius magna aliquet eget. Nunc nisl justo, auctor sed purus ac, pharetra varius sem.</article>
+            <button class="btn btn-primary">Leer Artículo</button>
+        </div>
+        <div class="news-card">
+            <h1>Noticia de Prueba</h1>
+            <h2>Subtítulo de Prueba</h2>
+            <article>Noticia 3</article>
+            <button class="btn btn-primary">Leer Artículo</button>
+        </div>
+    </section>
     <footer></footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"

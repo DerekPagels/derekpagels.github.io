@@ -1,12 +1,17 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: magenta;
 }
 
 header {
     background-color: green;
     padding-bottom: 20px;
-    overflow: scroll;
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;  
+}
+
+header::-webkit-scrollbar {
+    display: hidden;
 }
 
 .header-fila-1 {
@@ -83,4 +88,51 @@ nav .btn {
 .site-logo {
     width: 100px;
     padding: 10px;
+}
+
+.news-feed {
+    display: flex;
+    border: 2px solid black;
+    margin: 5px 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.news-card {
+    display: inline-block;
+    width: 50%;
+    margin: 5px;
+    text-align: center;
+    text-justify: newspaper;
+    border: 2px solid red;
+    max-width: 300px;
+    min-width: 150px;
+    flex: 1 1 150px;
+}
+
+.news-card h1 {
+    font-size: 18pt;
+    font-family: fantasy;
+    font-weight: bold;
+    margin: 5px 5px;
+}
+
+.news-card h2 {
+    font-size: 12pt;
+    font-family: ModernSans;
+    margin: 5px 5px;
+}
+
+.news-card article {
+    font-size: 12pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    overflow: hidden;
+    max-height: 150px;
+    max-width: max-content;
+    text-align: left;
+}
+
+.news-card button {
+    position: fixed;
 }
