@@ -1,0 +1,29 @@
+/* Disponible sólo en versión Light */
+@font-face {
+    font-family: ModernSans;
+    src: url(../fonts/ModernSans-Light.ttf);
+    font-weight: 200;
+}
+
+/* Disponible sólo en versión Heavy */
+@font-face {
+    font-family: MoonGet;
+    src: url(../fonts/moon_get-Heavy.ttf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: PoetsenOne;
+    src: url(../fonts/PoetsenOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: Quicksilver;
+    src: url(../fonts/Quicksilver.ttf);
+}
+
+@font-face {
+    font-family: Quicksilver;
+    src: url(../fonts/Quicksilver_Italic.ttf);
+    font-style: italic;
+}
