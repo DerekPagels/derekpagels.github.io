@@ -2,4 +2,5 @@
     max-width: none;
     min-width: none;
     width: 100%;
+    flex: auto;
 }
