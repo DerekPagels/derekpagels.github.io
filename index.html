@@ -38,7 +38,7 @@
                 </div>
             </div>
         </header>
-
+        <!-- Barra de Navegación -->
         <div class="nav-scroller py-1 mb-2">
             <nav class="nav d-flex justify-content-between">
                 <a class="p-2 link-secondary" href="#">Xbox</a>
@@ -52,7 +52,7 @@
             </nav>
         </div>
     </div>
-
+    <!-- Cartas de noticias destacadas -->
     <main class="container">
         <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
             <div class="col-md-6 px-0">
@@ -111,55 +111,56 @@
                 </div>
             </div>
         </div>
-
+        <!-- Inicio de cuerpo de página -->
         <div class="row g-5">
             <div class="col-md-8">
                 <h3 class="pb-4 mb-4 fst-italic border-bottom">
-                    From the Firehose
+                    SideBlog
                 </h3>
 
                 <article class="blog-post">
-                    <h2 class="blog-post-title mb-1">Sample blog post</h2>
-                    <p class="blog-post-meta">January 1, 2021 by <a href="#">Mark</a></p>
-
-                    <p>This blog post shows a few different types of content that’s supported and styled with Bootstrap.
-                        Basic typography, lists, tables, images, code, and more are all supported as expected.</p>
+                    <h2 class="blog-post-title mb-1">Entrada de blog de ejemplo</h2>
+                    <p class="blog-post-meta">Viernes, 20 de Enero, 2023 | <a href="https://lile.cl/@AeroBlazt">Derek Pagels</a></p>
+                    <p>Ésta entrada sirve de ejemplo para una entrada personalizada en el blog personal del autor.
+                        Los componentes principales para éste son el título, la fecha, autor y cuerpo.</p>
                     <hr>
-                    <p>This is some additional paragraph placeholder content. It has been written to fill the available
-                        space and show how a longer snippet of text affects the surrounding content. We'll repeat it
-                        often to keep the demonstration flowing, so be on the lookout for this exact same string of
-                        text.</p>
-                    <h2>Blockquotes</h2>
-                    <p>This is an example blockquote in action:</p>
+                    <p>Las entradas de blog pueden tener varios formatos, como la regla horizontal dividendo éste
+                        párrafo y el anterior.
+                        A continuación se mostrarán diferentes ejemplos de formato para las entradas de blog.
+                    </p>
+                    <h2>Citas de bloques.</h2>
+                    <p>Se pueden citar diferentes autores y/o usar el formato a la preferencia del autor.
+                        Un ejemplo de éste elemento sería:
+                    </p>
                     <blockquote class="blockquote">
-                        <p>Quoted text goes here.</p>
+                        <p>"Aquí iría una cita, comentario y/o bloque de texto que el autor quiera enfatizar"<br><span
+                                class="text-italic">
+                                Derek Pagels
+                            </span></p>
                     </blockquote>
-                    <p>This is some additional paragraph placeholder content. It has been written to fill the available
-                        space and show how a longer snippet of text affects the surrounding content. We'll repeat it
-                        often to keep the demonstration flowing, so be on the lookout for this exact same string of
-                        text.</p>
-                    <h3>Example lists</h3>
-                    <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the
-                        other highly repetitive body text used throughout. This is an example unordered list:</p>
+                    <p>Se pueden usar otros tipos de texto dentro del bloque de texto. En este caso, por ejemplo, se
+                        utilizó un <b>span</b> con clase <b>text-italic</b> para distinguir entre la cita y su autor.
+                    </p>
+                    <h3>Listas</h3>
+                    <p>Se pueden usar listas para ordenar diferentes ideas y conceptos. Por ejemplo, se presenta a continuación una lista sin numeración:</p>
                     <ul>
-                        <li>First list item</li>
-                        <li>Second list item with a longer description</li>
-                        <li>Third list item to close it out</li>
+                        <li>Tenemos una lista sin numeración, también conocida como lista desordenada.</li>
+                        <li>Tiene tres elementos.</li>
+                        <li>Los elementos son distinguidos con puntos de viñeta.</li>
                     </ul>
-                    <p>And this is an ordered list:</p>
+                    <p>A continuación, un ejemplo de una lista ordenada:</p>
                     <ol>
-                        <li>First list item</li>
-                        <li>Second list item with a longer description</li>
-                        <li>Third list item to close it out</li>
+                        <li>Tenemos una lista numerada, también conocida como lista ordenada.</li>
+                        <li>Cada elemento es distinguido con un número en orden ascendente.</li>
                     </ol>
-                    <p>And this is a definition list:</p>
+                    <p>Por último, tenemos una lista de definición.</p>
                     <dl>
                         <dt>HyperText Markup Language (HTML)</dt>
-                        <dd>The language used to describe and define the content of a Web page</dd>
+                        <dd>El lenguaje usado por un navegador web para mostrar una página.</dd>
                         <dt>Cascading Style Sheets (CSS)</dt>
-                        <dd>Used to describe the appearance of Web content</dd>
+                        <dd>Lenguaje usado por un navegador web para dar estilo a una página HTML.</dd>
                         <dt>JavaScript (JS)</dt>
-                        <dd>The programming language used to build advanced Web sites and applications</dd>
+                        <dd>Lenguaje de programación usado por un navegador web para ejecutar contenido y cambiar páginas dinámicamente.</dd>
                     </dl>
                     <h2>Inline HTML elements</h2>
                     <p>HTML defines a long list of available inline tags, a complete list of which can be found on the
@@ -273,11 +274,11 @@
                     <p>This is some additional paragraph placeholder content. It's a slightly shorter version of the
                         other highly repetitive body text used throughout.</p>
                 </article>
-
-                <nav class="blog-pagination" aria-label="Pagination">
-                    <a class="btn btn-outline-primary rounded-pill" href="#">Older</a>
-                    <a class="btn btn-outline-secondary rounded-pill disabled">Newer</a>
-                </nav>
+                <!-- Botones de navegación de página, redundantes a menos que haya más contenido. -->
+                <!-- <nav class="blog-pagination" aria-label="Pagination">
+                    <a class="btn btn-outline-primary rounded-pill" href="#">Antigüos</a>
+                    <a class="btn btn-outline-secondary rounded-pill disabled">Nuevos</a>
+                </nav> -->
 
             </div>
 
@@ -286,7 +287,8 @@
                     <div class="p-4 mb-3 bg-light rounded">
                         <h4 class="fst-italic">Sobre SideQuest</h4>
                         <p class="mb-0">Página agregadora de noticias de editoriales y noticieros relacionados con el
-                            mundo de los videojuegos y su cultura. Creada por <a href="https://lile.cl/@AeroBlazt">Derek Pagels</a>.</p>
+                            mundo de los videojuegos y su cultura. Creada por <a href="https://lile.cl/@AeroBlazt">Derek
+                                Pagels</a>.</p>
                     </div>
                     <!-- Bloque de archivo de publicaciones pasadas, actualmente irrelevante para el proyecto. -->
                     <!-- <div class="p-4">
@@ -308,11 +310,11 @@
                     </div> -->
 
                     <div class="p-4">
-                        <h4 class="fst-italic">Elsewhere</h4>
+                        <h4 class="fst-italic">Estamos en:</h4>
                         <ol class="list-unstyled">
-                            <li><a href="#">GitHub</a></li>
-                            <li><a href="#">Twitter</a></li>
-                            <li><a href="#">Facebook</a></li>
+                            <li><a href="https://github.com/DerekPagels/derekpagels.github.io">GitHub</a></li>
+                            <li><a href="https://lile.cl/@AeroBlazt">Mastodon</a></li>
+                            <li><a href="https://talentodigitalaustral.slack.com">Slack</a></li>
                         </ol>
                     </div>
                 </div>
